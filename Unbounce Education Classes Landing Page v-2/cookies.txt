@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+unbouncepages.com	TRUE	/learn-landing-theme-template-v2/	FALSE	1999999999	ubpv	a%2Cd2c0d560-497a-11e4-8a9b-22000b2f9b4a
+unbouncepages.com	TRUE	/	FALSE	1999999999	ubvs	36.73.59.1701571429354427752
+unbouncepages.com	TRUE	/	FALSE	1999999999	ubvt	36.73.59.1701571429354427752
+.google.com	TRUE	/	FALSE	1999999999	NID	189=Kp-X1X2B1LwAIgfQ-qhb02Y-DhCtMrYGr_OoNuNURG8rIHY1vi7hNK3n7BOO-g1qmO3bmeLn9HVWAx63CHr_tRRaojh_QwBEgbTMfDHEDxlBHOSojnlGlXipJCH9FDpQB19E3PbdBI3jcSBwnI0LCDuEj0CAROcn7xQ_QK0GN2w
+
