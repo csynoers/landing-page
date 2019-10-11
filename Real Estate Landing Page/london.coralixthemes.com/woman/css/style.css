@@ -1,0 +1,484 @@
+@charset "utf-8";
+/***************************************************************************/
+/********************************  $Content  *******************************/
+/**
+* + Content
+* + Imports Fonts and Icons
+* + General Tags
+* + Home
+* + Form
+* + Gallery
+* + Partners
+* + Footer
+* + Tooltip
+* + Parallax
+* + Newsletter
+* + Animate Itemas on Start
+
+*/
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+ /* ---------------------------------------------------------------------- */
+
+/*Google Fonts*/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");
+/*countdown*/
+@import url("clock/main.html");
+/*Responsive */
+@import url("media-queries.css");
+
+
+/*******************************  $General Tags  *******************************/
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	overflow-x: hidden;
+}
+body > section {
+    overflow: hidden;
+}
+a, a:hover, a:active {	
+	outline: 0 !important;
+	-webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+       -o-transition: all .3s ease;
+          transition: all .3s ease;
+}
+a:hover{
+	color: #148FEE!important;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-size: 2.5em;
+}
+h2{
+  color: #CD9F7A;
+  font-size: 2.375em;
+  font-weight: 700;
+  text-align: center;
+}
+h3{
+	font-size: 1.625em;
+  font-weight: 300;
+  margin: 97px 0 0 0;
+	padding: 0;
+}
+h4{
+  font-size: 1.563em;
+  font-weight: 700;
+}
+h5{
+  color: #022444;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+img  {
+	width: 100%;
+}
+i{
+	-webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+       -o-transition: all .3s ease;
+          transition: all .3s ease;
+}
+p {
+	color: #696969;
+  font-size: 1em;
+  line-height: 30px;
+}
+.content-bg{
+   margin: 0 auto;
+   width: 200px;
+}
+.content-bg figure img{
+  height: 31px;
+  margin: 0 0 30px 0;
+  width: 215px;
+}
+.generic{
+	padding: 50px 0;
+}
+.generic-2{
+  padding: 0 0 50px 0;
+}
+/*******************************  $Home  *******************************/
+.home {
+  background-color: transparent;
+  min-height: 625px;
+  padding: 0;
+  position: relative;
+}
+.home figure {
+  position: absolute;
+  width: 631px;
+  padding: 2em 0 0 0;
+  margin: 0;
+  left: 110px;
+}
+.home figure.man {
+  left: 160px;
+  margin: 0;
+  padding: 2em 0 0 0;
+  position: absolute;
+  width: 529px;
+}
+.home .bg.img {
+  background-image: url("../img/bg/home.jpg");
+}
+.home .bg.img-2 {
+  background-image: url("../img/bg/home-2.jpg");
+}
+.home .bg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.home .bg:before {
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#home .contform  h1 {
+  color: #fff;
+  line-height: 37px;
+  margin: 11px 0 23px 0;
+  font-weight: 700;
+  padding-left: 0px;
+}
+#home .contform textarea.form-control {
+    height: 123px;
+}
+#home .contform .btn {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+#home .inner{
+	margin: 0 0 50px 0;
+}
+.home .slider-position{
+  height: 100%;
+  position: absolute;
+  width: 89%;
+  z-index: 90;
+}
+/**************************** $Countdown ********************************/
+.home-countdown {
+  background: url("../img/bg-countdown.jpg") no-repeat scroll center top transparent;
+  height: 750px;
+}
+.countdown h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.separator{
+  padding: 140px 0 60px 0;
+}
+/*******************************  $Header  *******************************/
+header {
+  background: #FFFFFF;
+  width: 100%;
+}
+header.fixed .top-info {
+  height: 0;
+  overflow: hidden;
+}
+header.fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 450;
+  box-shadow: 0 0 4px rgba(0,0,0,0.7);
+}
+.navbar {
+    border: 0 none;
+    margin: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-default {
+    background: none repeat scroll 0 0 transparent;
+    height: auto;
+    min-height: 0;
+}
+.navbar-nav {
+  float: right;
+  padding: 20px 0;
+}
+.navbar-nav > li {
+  float: left;
+  font-size: 15px;
+  margin: 0 0 0 25px;
+}
+
+.navbar-nav > li > a {    
+    padding: 3px 0;
+}
+/**************************** $Video ********************************/
+.video {
+  background-color: transparent;
+  min-height: 624px;
+  position: relative;
+}
+.video .bg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.video .bg:before {
+  background-color: #666;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/*******************************  $Form  *******************************/
+.brand{
+  display: block;
+}
+.btn-lg {    
+    max-width: 100%;
+}
+.btn-info {
+	background-color: #06C;
+	border-color: #06C;
+} 
+.btn {
+	border-radius: 3px 3px 3px 3px;
+	font-family: 'lato', sans-serif;
+	font-weight: 700;
+	padding: 23px 38px;
+	-webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+       -o-transition: all .3s ease;
+          transition: all .3s ease;
+}
+.btn:hover{
+	background: #085BC2;
+	border-color: #085BC2;
+}
+.btn-lg {
+    border-radius: 3px 3px 3px 3px;
+    font-family: 'lato',sans-serif;
+    font-size: 1.063em;
+    font-weight: 700;
+    line-height: 1.33;
+    padding: 18px 38px;
+}
+.btn-lg i {
+	font-size: 1.25em;
+}
+.contform {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.74);
+    padding: 15px 60px 1px 60px;
+}
+.form-control{
+  height: 44px;
+}
+.form-group {
+    margin: 20px 0;
+}
+.input-lg, .form-control {
+	border-radius: 4px;
+    font-size: 1em;
+    height: 44px;
+    line-height: 1.33;
+    padding: 10px 16px;
+}
+/*******************************  $Features  *******************************/
+#features p{
+  color: #fff;
+  font-size: 1em;
+}
+#features h4{
+  font-weight: 800;
+}
+.bg-color{
+  background: rgba(34,70,103,1);
+background: -moz-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,70,103,1)), color-stop(41%, rgba(8,41,75,1)), color-stop(100%, rgba(2,36,68,1)));
+background: -webkit-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: -o-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: -ms-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: linear-gradient(to bottom, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#224667', endColorstr='#022444', GradientType=0 );
+  padding: 40px 0;
+}
+
+/*******************************  $Gallery  *******************************/
+#gallery h4{
+	padding: 20px 20px 0 20px;
+}
+#gallery p, #gallery h5{
+	line-height: 30px;
+	padding: 0px 20px 0 20px;
+}
+#gallery .content{
+	border: 1px solid #E6E6E6;
+	margin: 20px 0 20px 0;	
+}
+#gallery .content h4 a{
+  color: #CD9F7A;
+}
+/*******************************  $Video  *******************************/
+.video-yt iframe{
+  height: 310px;
+  width: 100%;
+}
+.video-yt h3{
+  color: #83858c;
+  font-weight: 500;
+  margin: 35px 0 20px 0;
+}
+.video-yt p i{
+  color: #CD9F7A;
+  font-size: 1.75em;
+  vertical-align: sub;
+}
+/*******************************  $Testimonials  *******************************/
+.testimonials{
+  background: #f5f5f5;
+}
+.testimonials .media{
+  margin-top: 35px;
+}
+.testimonials .media img{
+  height: 122px;
+  width: 122px;
+}
+.testimonials .media-body{
+  display: inline-block;
+  vertical-align: middle;
+  color: grey;
+  font-size: 1em;
+  margin: 15px;
+}
+/*******************************  $Footer  *******************************/
+footer{
+	background: rgba(34,70,103,1);
+background: -moz-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,70,103,1)), color-stop(41%, rgba(8,41,75,1)), color-stop(100%, rgba(2,36,68,1)));
+background: -webkit-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: -o-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: -ms-linear-gradient(top, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+background: linear-gradient(to bottom, rgba(34,70,103,1) 0%, rgba(8,41,75,1) 41%, rgba(2,36,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#224667', endColorstr='#022444', GradientType=0 );
+	padding: 40px 0;
+}
+footer h5{
+	color: #4c7296;
+  font-weight: 300;
+}
+footer .social li a {
+  color: #ccc;
+  font-size: 1.2em;
+}
+footer .container li{
+	display: inline-block;
+}
+footer .list-unstyled{
+	font-size: 1.875em;
+}
+
+/*******************************  $Tooltip  *******************************/
+.tooltip-inner {
+	background: #CD9F7A;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 0.813em;
+	opacity: 1;
+}
+.tooltip.top .tooltip-arrow {
+	border-top-color: #CD9F7A;
+}
+/*******************************  $Animate Itemas on Start  *******************************/
+.animated {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+/*****************************  $Menu Effect  ******************************/
+.menu-effect li a {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.menu-effect li a:before {
+  color: transparent;
+  content: '•';
+  font-size: 0.7em;
+  left: 50%;
+  margin-top: -5px;
+  pointer-events: none;
+  position: absolute;
+  text-shadow: 0 0 transparent;
+  top: 100%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: text-shadow 0.3s, color 0.3s;
+  -moz-transition: text-shadow 0.3s, color 0.3s;
+  -o-transition: text-shadow 0.3s, color 0.3s;
+  -ms-transition: text-shadow 0.3s, color 0.3s;
+  transition: text-shadow 0.3s, color 0.3s;
+}
+.menu-effect li.active a,
+.menu-effect li a:hover,
+.menu-effect li a:focus {
+  color: #148FEE;
+}
+.menu-effect li.active a::before,
+.menu-effect li a:hover::before,
+.menu-effect li a:focus::before {
+  color: #148FEE;
+  text-shadow: 10px 0 #148FEE, -10px 0 #148FEE;
+}

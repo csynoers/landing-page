@@ -1,0 +1,143 @@
+/***************************************************************************/
+/****************************  $Media Queries  *****************************/
+
+/***************************************************************************/
+/****************************  $Version  300px  ****************************/
+@media handheld, only screen and (max-width: 300px) {
+  .btn {
+    width: 100%;
+    margin: 0;
+  }
+  .btn i {
+    display: none;
+  }
+  .testimonials .testimonials-item {
+    padding: 0.5em;
+    margin: 0;
+  }
+  .testimonials .testimonials-item figure {
+    display: none;
+  }
+}
+
+/****************************  $Version 500px  *****************************/
+@media handheld, only screen and (min-width: 500px) {
+  .team .youtube {
+    height: 400px;
+  }
+}
+
+/****************************  $Version 768px  *****************************/
+@media handheld, only screen and (min-width: 767px) {
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+  .copy {
+    text-align: right;
+  }  
+  .donation h2 {
+    text-align: left;
+  }
+  .donation label {
+    text-align: left!important;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav li {
+    float: none;
+    display: inline-block;
+    margin: 14px 0 14px 0;
+  }
+  .navbar-nav li a {
+    padding: 10px 10px;
+  }
+  .navbar.nonTop .navbar-header {
+    max-height: 0;
+  }
+  .navbar.nonTop .navbar-nav li {
+    margin: 14px 0;
+  }
+  .video {
+    min-height: 600px;
+  }
+  .social {
+    float: left;
+  }
+  .tour .tour-item {
+    width: 50%;
+    box-sizing: content-box;
+  }
+  .tour .tour-item .content {
+    margin: 0 70px;
+  }
+  .tour .tour-item:nth-child(odd) {
+    margin: 0 50% 0 0;
+    border-right: 1px solid #dedede;
+  }
+  .tour .tour-item:nth-child(odd) .marker:before {
+    left: 100%;
+    margin: 0 0 0 2px;
+  }
+  .tour .tour-item:nth-child(even) {
+    margin: 0 0 0 50%;
+    border-left: 1px solid #dedede;
+  }
+  .tour .tour-item:nth-child(even) .marker:before {
+    left: -72px;
+  }
+  .tour .tour-item .marker:before {
+    content: ' ';
+    border-top: 1px solid #dedede;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    display: block;
+    height: 1px;
+  }
+}
+
+/****************************  $Version 992px  *****************************/
+@media handheld, only screen and (min-width: 992px) {
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+  .navbar {
+    background-color: #1B1D2A;
+  }
+  .navbar-nav {
+    float: right;
+  }
+  .navbar-nav li {
+    margin: 14px 0;
+  }
+  .navbar-brand {
+    margin: 0 15px 0 0;
+  }
+  .team .youtube {
+    height: 300px;
+  }
+  .profile .img-candidate {
+    margin: 0 auto;
+  }
+  .footer h3 {
+    color: #fff;
+    margin: 1.5em auto 1em;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+  }
+  .footer h3 span {
+    border-bottom: 3px double cLigthBlue;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+/****************************  $Version 1200px  ****************************/
+@media handheld, only screen and (min-width: 1200px) {
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+}
